@@ -3,7 +3,7 @@ require 'rubygems'
 require 'open-uri'
 require 'cgi'
 require 'uri'
-require 'pry'
+# require 'pry'
 
 class FashionBlog
 
