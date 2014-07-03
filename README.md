@@ -1,6 +1,6 @@
 FASHION FIXX DAILY
 
-aily content from your favorite fashion blogs.
+Daily content from your favorite fashion blogs.
 Automatically updates anytime a blogger posts new content.
 No more surfing multiple websites.
 Just images. None of the fuss.
