@@ -1,6 +1,13 @@
 <html>
 <head>
+  <meta charset=utf-8>
+  <meta name="keywords" content="fashion, daily, blog"/>
+  <meta name="description" content="Daily content from your favorite fashion blogs.">
+  <title>Fashion Fixx Daily</title>
   <link href="normalize.css" rel="stylesheet" type="text/css">
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
   <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
@@ -17,8 +24,8 @@
         <p>No more surfing multiple websites.</p>
         <p>Just images. None of the fuss.</p>
         <p>See something you like? Simply click the image and you'll be redirected to the original post.</p>
+        <span><a href="/terms">About & Terms</a></br></span>
       </div>
-      <span><a href="/terms">Terms & Conditions</a></br></span>
       <a href="#body"><img src="http://static.wixstatic.com/media/ad05fe_a61b9723a1199d002b850b26fe243477.png_srz_80_50_85_22_0.50_1.20_0.00_png_srz"></a>
     </header>
     <div class="body" id="body">
@@ -77,8 +84,9 @@
           <a href=<%= @pink_horror.url %> target="_blank"><img src=<%= link %> height="300"></a>
         <% end %>
       </div>
+      <span><a href="/terms">About & Terms</a></br></span>
+      <p>Copyright Fashion Fixx Daily 2014</p>
     </div>
-    <p>Created by <a href="http://twitter.com/korenlc">@korenlc</a></p>
   </center>
 </body>
 </html>

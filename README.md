@@ -1,3 +1,7 @@
-This is a project which will scrape fashion blogs and provide images and links to users.  
+FASHION FIXX DAILY
 
-This project is still being built.
+aily content from your favorite fashion blogs.
+Automatically updates anytime a blogger posts new content.
+No more surfing multiple websites.
+Just images. None of the fuss.
+See something you like? Simply click the image and you'll be redirected to the original post.
