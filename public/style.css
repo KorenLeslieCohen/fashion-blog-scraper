@@ -1,0 +1,86 @@
+@import url('http://fonts.googleapis.com/css?family=Special+Elite');
+@import url('http://fonts.googleapis.com/css?family=Pompiere');
+@import url('http://fonts.googleapis.com/css?family=Marcellus');
+@import url('http://fonts.googleapis.com/css?family=Julius Sans One');
+
+
+/*page header*/
+h1 {
+  font-size: 100px;
+  font-family: 'Julius Sans One';
+  color: #FB2875;
+  margin-top: 10px;
+  margin-bottom: 0em;
+}
+
+/*header text*/
+h2 {
+  font-family: 'Julius Sans One';
+  font-size: 30px;
+  margin-top: 0em;
+}
+
+.header-text p {
+  font-family: 'Marcellus';
+  font-size: 20px;
+  margin: 5px;
+}
+
+
+/*blog links*/
+a,
+a:visited {
+  text-decoration: none;
+  color: #FB2875;
+  font-size: 60px;
+  font-family: 'Special Elite';
+  transition-duration: .5s;
+}
+
+a:hover {
+  color: black;
+  transition-property: color;
+  transition-duration: .5s;
+}
+
+/*terms and conditions links*/
+span a,
+span a:visited {
+  font-family: 'Julius Sans One';
+  font-size: 15px;
+}
+
+span a:hover {
+
+}
+
+header {
+  height: 750px;
+}
+
+.blog {
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+}
+
+.icon {
+  background: #FB2875;
+  height: 250px;
+  width: 250px;
+  border-radius: 125px;
+}
+
+.header-text {
+  width: 100%;
+  /*background: #FB2875;*/
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
+
+

@@ -1,0 +1,85 @@
+<html>
+<head>
+  <link href="normalize.css" rel="stylesheet" type="text/css">
+  <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <center>
+    <header>
+      <h1>FASHION FIXX DAILY</h1>
+      <h2>Daily content from your favorite fashion blogs</h2>
+      <div class="icon">
+        <!-- IMAGE CREDIT: http://easydecals.com/images/P/paris.png -->
+        <img src="http://easydecals.com/images/P/paris.png" height="230">
+      </div>
+      <div class="header-text">
+        <p>Automatically updates anytime a blogger posts new content.</p>
+        <p>No more surfing multiple websites.</p>
+        <p>Just images. None of the fuss.</p>
+        <p>See something you like? Simply click the image and you'll be redirected to the original post.</p>
+      </div>
+      <span><a href="/terms">Terms & Conditions</a></br></span>
+      <a href="#body"><img src="http://static.wixstatic.com/media/ad05fe_a61b9723a1199d002b850b26fe243477.png_srz_80_50_85_22_0.50_1.20_0.00_png_srz"></a>
+    </header>
+    <div class="body" id="body">
+      <div class="blog">
+        <a href=<%= @atlantic.url %>><%= @atlantic.name %></a></br>
+        <% @atlantic.get_links.each do |link| %>
+          <a href=<%= @atlantic.url %> target="_blank"><img src=<%= link %> height="300"></a>
+        <% end %>
+      </div>
+      </br>
+      <div class="blog">
+        <a href=<%= @sara_libby.url %>><%= @sara_libby.name %></a></br>
+        <% @sara_libby.get_links.each do |link| %>
+          <a href=<%= @sara_libby.url %> target="_blank"><img src=<%= link %> height="300"></a>
+        <% end %>
+      </div>
+      </br>
+      <div class="blog">
+        <a href=<%= @we_wore.url %>><%= @we_wore.name %></a></br>
+        <% @we_wore.get_links.each do |link| %>
+          <a href=<%= @we_wore.url %> target="_blank"><img src=<%= link %> height="300"></a>
+        <% end %>
+      </div>
+      </br>
+      <div class="blog">
+        <a href=<%= @sartorialist.url %>><%= @sartorialist.name %></a></br>
+        <% @sartorialist.get_links.each do |link| %>
+          <a href=<%= @sartorialist.url %> target="_blank"><img src=<%= link %> height="300"></a>
+        <% end %>
+      </div>
+      </br>
+      <div class="blog">
+        <a href=<%= @song_style.url %>><%= @song_style.name %></a></br>
+        <% @song_style.get_links.each do |link| %>
+          <a href=<%= @song_style.url %> target="_blank"><img src=<%= link %> height="300"></a>
+        <% end %>
+      </div>
+      </br>
+      <div class="blog">
+        <a href=<%= @sea_of_shoes.url %>><%= @sea_of_shoes.name %></a></br>
+        <% @sea_of_shoes.get_links.each do |link| %>
+          <a href=<%= @sea_of_shoes.url %> target="_blank"><img src=<%= link %> height="300"></a>
+        <% end %>
+      </div>
+      </br>
+      <div class="blog">
+        <a href=<%= @le_fashion.url %>><%= @le_fashion.name %></a></br>
+          <% @le_fashion.get_links.each do |link| %>
+        <a href=<%= @le_fashion.url %> target="_blank"><img src=<%= link %> height="300"></a>
+        <% end %>
+      </div>
+      </br>
+      <div class="blog">
+        <a href=<%= @pink_horror.url %>><%= @pink_horror.name %></a></br>
+        <% @pink_horror.get_links.each do |link| %>
+          <a href=<%= @pink_horror.url %> target="_blank"><img src=<%= link %> height="300"></a>
+        <% end %>
+      </div>
+    </div>
+    <p>Created by <a href="http://twitter.com/korenlc">@korenlc</a></p>
+  </center>
+</body>
+</html>
+
