@@ -12,7 +12,7 @@
 </head>
 <body>
   <center>
-    <header>
+    <header id="home">
       <h1>FASHION FIXX DAILY</h1>
       <h2>Daily content from your favorite fashion blogs</h2>
       <div class="icon">
@@ -30,60 +30,76 @@
     </header>
     <div class="body" id="body">
       <div class="blog">
-        <a href=<%= @atlantic.url %>><%= @atlantic.name %></a></br>
+        <a href=<%= @atlantic.url %> target="_blank"><%= @atlantic.name %></a></br>
         <% @atlantic.get_links.each do |link| %>
           <a href=<%= @atlantic.url %> target="_blank"><img src=<%= link %> height="300"></a>
         <% end %>
       </div>
       </br>
       <div class="blog">
-        <a href=<%= @sara_libby.url %>><%= @sara_libby.name %></a></br>
+        <a href=<%= @sara_libby.url %> target="_blank"><%= @sara_libby.name %></a></br>
         <% @sara_libby.get_links.each do |link| %>
           <a href=<%= @sara_libby.url %> target="_blank"><img src=<%= link %> height="300"></a>
         <% end %>
       </div>
       </br>
       <div class="blog">
-        <a href=<%= @we_wore.url %>><%= @we_wore.name %></a></br>
+        <a href=<%= @we_wore.url %> target="_blank"><%= @we_wore.name %></a></br>
         <% @we_wore.get_links.each do |link| %>
           <a href=<%= @we_wore.url %> target="_blank"><img src=<%= link %> height="300"></a>
         <% end %>
       </div>
       </br>
       <div class="blog">
-        <a href=<%= @sartorialist.url %>><%= @sartorialist.name %></a></br>
-        <% @sartorialist.get_links.each do |link| %>
-          <a href=<%= @sartorialist.url %> target="_blank"><img src=<%= link %> height="300"></a>
+        <a href=<%= @viva.url %> target="_blank"><%= @viva.name %></a></br>
+        <% @viva.get_links_img.each do |link| %>
+          <a href=<%= @viva.url %> target="_blank"><img src=<%= link %> height="300"></a>
         <% end %>
       </div>
       </br>
       <div class="blog">
-        <a href=<%= @song_style.url %>><%= @song_style.name %></a></br>
+        <a href=<%= @song_style.url %> target="_blank"><%= @song_style.name %></a></br>
         <% @song_style.get_links.each do |link| %>
           <a href=<%= @song_style.url %> target="_blank"><img src=<%= link %> height="300"></a>
         <% end %>
       </div>
       </br>
       <div class="blog">
-        <a href=<%= @sea_of_shoes.url %>><%= @sea_of_shoes.name %></a></br>
+        <a href=<%= @sea_of_shoes.url %> target="_blank"><%= @sea_of_shoes.name %></a></br>
         <% @sea_of_shoes.get_links.each do |link| %>
           <a href=<%= @sea_of_shoes.url %> target="_blank"><img src=<%= link %> height="300"></a>
         <% end %>
       </div>
       </br>
       <div class="blog">
-        <a href=<%= @le_fashion.url %>><%= @le_fashion.name %></a></br>
+        <a href=<%= @le_fashion.url %> target="_blank"><%= @le_fashion.name %></a></br>
           <% @le_fashion.get_links.each do |link| %>
         <a href=<%= @le_fashion.url %> target="_blank"><img src=<%= link %> height="300"></a>
         <% end %>
       </div>
       </br>
       <div class="blog">
-        <a href=<%= @pink_horror.url %>><%= @pink_horror.name %></a></br>
+        <a href=<%= @pink_horror.url %> target="_blank"><%= @pink_horror.name %></a></br>
         <% @pink_horror.get_links.each do |link| %>
           <a href=<%= @pink_horror.url %> target="_blank"><img src=<%= link %> height="300"></a>
         <% end %>
       </div>
+      </br>
+      <div class="blog">
+        <a href=<%= @zoranna.url %> target="_blank"><%= @zoranna.name %></a></br>
+        <% @zoranna.get_links_img.each do |link| %>
+          <a href=<%= @zoranna.url %> target="_blank"><img src=<%= link %> height="300"></a>
+        <% end %>
+      </div>
+      </br>
+      <div class="blog">
+        <a href=<%= @navy.url %> target="_blank"><%= @navy.name %></a></br>
+        <% @navy.get_links_img.each do |link| %>
+          <a href=<%= @navy.url %> target="_blank"><img src=<%= link %> height="300"></a>
+        <% end %>
+      </div>
+      </div>
+      <span><a href="#home">Home</a></br></span>
       <span><a href="/terms">About & Terms</a></br></span>
       <p>Copyright Fashion Fixx Daily 2014</p>
     </div>
