@@ -21,8 +21,7 @@
           <span><a href="/terms">Learn More</a></span>
         </div>
         <div id="icon-two">
-          <!-- IMAGE CREDIT: http://easydecals.com/images/P/paris.png -->
-          <img src="http://easydecals.com/images/P/paris.png" height="180">
+          <img src="tower.png" height="180">
         </div>
         <div id="icon-three" class="email">
           </br></br></br></br></br>
@@ -36,11 +35,11 @@
         <p>See something you like? Simply click the image and you'll be redirected to the original post.</p>
       </div>
       <div class="social">
-        <a href="http://facebook.com" target="_blank"><img src="http://www.simplystewarts.com/wp-content/uploads/2014/03/Black-Circle-Icon_Facebook1-940x940.png" height="50" id="facebook"></a>
-        <a href="http://twitter.com/fashionfixxd" target="_blank"><img src="http://aweebitirish.com/wp-content/uploads/2014/03/twitter-logo-png-black.png" height="50" id="twitter"></a>
-        <a href="http://instagram.com/fashionfixxd" target="_blank"><img src="http://miamiundergroundradio.com/wp-content/uploads/2014/04/ugrinstagram-512.png" height="50" id="instagram"></a>
+        <a href="http://facebook.com" target="_blank"><img src="facebook.png" height="50" id="facebook"></a>
+        <a href="http://twitter.com/fashionfixxd" target="_blank"><img src="twitter.png" height="50" id="twitter"></a>
+        <a href="http://instagram.com/fashionfixxd" target="_blank"><img src="instagram.png" height="50" id="instagram"></a>
       </div>
-      <a href="#body"><img src="http://static.wixstatic.com/media/ad05fe_a61b9723a1199d002b850b26fe243477.png_srz_80_50_85_22_0.50_1.20_0.00_png_srz"></a>
+      <a href="#body"><img src="scroll.png" height="50"></a>
     </header>
     <div class="body" id="body">
       <div class="blog">
@@ -65,16 +64,16 @@
       </div>
       </br>
       <div class="blog">
-        <a href=<%= @viva.url %> target="_blank"><%= @viva.name %></a></br>
-        <% @viva.get_links_img.each do |link| %>
-          <a href=<%= @viva.url %> target="_blank"><img src=<%= link %> height="300"></a>
+        <a href=<%= @lace.url %> target="_blank"><%= @lace.name %></a></br>
+        <% @lace.get_links_img.each do |link| %>
+          <a href=<%= @lace.url %> target="_blank"><img src=<%= link %> height="300"></a>
         <% end %>
       </div>
       </br>
       <div class="blog">
-        <a href=<%= @song_style.url %> target="_blank"><%= @song_style.name %></a></br>
-        <% @song_style.get_links.each do |link| %>
-          <a href=<%= @song_style.url %> target="_blank"><img src=<%= link %> height="300"></a>
+        <a href=<%= @wendy_lookbook.url %> target="_blank"><%= @wendy_lookbook.name %></a></br>
+        <% @wendy_lookbook.get_links_img.each do |link| %>
+          <a href=<%= @wendy_lookbook.url %> target="_blank"><img src=<%= link %> height="300"></a>
         <% end %>
       </div>
       </br>
@@ -86,16 +85,16 @@
       </div>
       </br>
       <div class="blog">
-        <a href=<%= @le_fashion.url %> target="_blank"><%= @le_fashion.name %></a></br>
-          <% @le_fashion.get_links.each do |link| %>
-        <a href=<%= @le_fashion.url %> target="_blank"><img src=<%= link %> height="300"></a>
+        <a href=<%= @gal.url %> target="_blank"><%= @gal.name %></a></br>
+          <% @gal.get_links_img.each do |link| %>
+        <a href=<%= @gal.url %> target="_blank"><img src=<%= link %> height="300"></a>
         <% end %>
       </div>
       </br>
       <div class="blog">
-        <a href=<%= @pink_horror.url %> target="_blank"><%= @pink_horror.name %></a></br>
-        <% @pink_horror.get_links.each do |link| %>
-          <a href=<%= @pink_horror.url %> target="_blank"><img src=<%= link %> height="300"></a>
+        <a href=<%= @viva.url %> target="_blank"><%= @viva.name %></a></br>
+        <% @viva.get_links_img.each do |link| %>
+          <a href=<%= @viva.url %> target="_blank"><img src=<%= link %> height="300"></a>
         <% end %>
       </div>
       </br>

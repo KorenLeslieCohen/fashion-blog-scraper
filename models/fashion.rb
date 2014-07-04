@@ -46,7 +46,7 @@ class FashionBlog
     all_image_links.each do |inner_array|
       inner_array.each do |link|
         # binding.pry
-        src_jpg_links << link 
+        src_jpg_links << link unless (link.include?("smilies") || link.include?("gumball"))
       end
     end
     src_jpg_links
