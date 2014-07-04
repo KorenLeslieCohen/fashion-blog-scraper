@@ -40,8 +40,7 @@ h2 span {
   margin: 5px;
 }
 
-.body,
-.terms-body {
+.body {
   width: 1200px;
 }
 
@@ -95,10 +94,8 @@ p {
   border-style: solid;
   border-width: 2px;
   border-color: black;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding-left: 10px;
-  padding-right: 10px;
+  margin: 20px;
+  padding: 10px;
 }
 
 .icons {
