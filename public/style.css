@@ -110,7 +110,6 @@ p {
   height: 200px;
 }
 
-
 #icon-one,
 #icon-two,
 #icon-three {
@@ -141,7 +140,7 @@ p {
 
 .terms p {
   font-family: 'Marcellus';
-  font-size: 15px;
+  font-size: 20px;
 }
 
 .terms h4,
