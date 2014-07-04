@@ -115,6 +115,27 @@ p {
   color: black;
 }
 
+.email p,
+.email a {
+  font-size: 20px;
+  margin: 0em;
+  background: #FB2875;
+}
+
+.email p {
+  color: white;
+}
+
+.email a,
+.email a:visited {
+  color: black;
+  font-family: 'Marcellus';
+}
+
+.email a:hover {
+  color: white;
+}
+
 
 
 
