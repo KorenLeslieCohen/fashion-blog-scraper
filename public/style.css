@@ -1,7 +1,8 @@
 @import url('http://fonts.googleapis.com/css?family=Special+Elite');
-@import url('http://fonts.googleapis.com/css?family=Pompiere');
+@import url('http://fonts.googleapis.com/css?family=Carme');
 @import url('http://fonts.googleapis.com/css?family=Marcellus');
 @import url('http://fonts.googleapis.com/css?family=Julius Sans One');
+@import url('http://fonts.googleapis.com/css?family=Courgette');
 
 
 /*page header*/
@@ -17,7 +18,20 @@ h1 {
 h2 {
   font-family: 'Julius Sans One';
   font-size: 30px;
-  margin-top: 0em;
+  margin-top: 0px;
+}
+
+h2 span {
+  font-family: 'Courgette';
+  font-size: 15px;
+  color: #FB2875;
+}
+
+.header-text {
+  width: 1100px;
+  /*background: #FB2875;*/
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .header-text p {
@@ -42,20 +56,22 @@ a:hover {
   transition-duration: .5s;
 }
 
-/*terms and conditions links*/
+/*terms and mail links*/
 span a,
 span a:visited {
-  font-family: 'Julius Sans One';
+  font-family: 'Marcellus';
   font-size: 20px;
   margin-top: 30px;
+  color: white;
 }
 
 span a:hover {
-  color: black;
+  color: #FB2875;
 }
 
 header {
   height: 800px;
+  width: 1100px;
 }
 
 p {
@@ -71,18 +87,37 @@ p {
   margin: 10px;
 }
 
-.icon {
-  background: #FB2875;
-  height: 250px;
-  width: 250px;
-  border-radius: 125px;
+.icons {
+  width: 1100px;
+  height: 200px;
 }
 
-.header-text {
-  width: 100%;
-  /*background: #FB2875;*/
-  margin-top: 30px;
-  margin-bottom: 30px;
+
+#icon-one,
+#icon-two,
+#icon-three {
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  float: left;
+}
+
+#icon-one {
+  margin-left: 240px;
+}
+
+#icon-two,
+#icon-three {
+  margin-left: 10px;
+}
+
+#icon-two {
+  background: #FB2875;
+}
+
+#icon-one,
+#icon-three {
+  background: black;
 }
 
 .terms {
@@ -118,8 +153,7 @@ p {
 .email p,
 .email a {
   font-size: 20px;
-  margin: 0em;
-  background: #FB2875;
+  margin: 20px;
 }
 
 .email p {
@@ -128,12 +162,12 @@ p {
 
 .email a,
 .email a:visited {
-  color: black;
+  color: white;
   font-family: 'Marcellus';
 }
 
 .email a:hover {
-  color: white;
+  color: #FB2875;
 }
 
 
