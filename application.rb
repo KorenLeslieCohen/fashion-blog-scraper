@@ -20,7 +20,7 @@ class Application < Sinatra::Base
     # @jag = FashionBlog.new("Jag Lever", '.entry-content p', "http://www.jaglever.com/")
     # @indie = FashionBlog.new("Fashion Indie", ".image a", "http://fashionindie.com/")
     # @cupcakes = FashionBlog.new("Cupcakes and Cashmere", '.embedded-Media-image', "http://cupcakesandcashmere.com/")
-    # @toast = FashionBlog.new("Fashiontoast", '.copy p', "http://fashiontoast.com/")
+    @toast = FashionBlog.new("Fashiontoast", '.copy p', "http://fashiontoast.com/")
     # @marcy = FashionBlog.new("The Marcy Stop", '.separator', "http://www.themarcystop.com/")
     @navy = FashionBlog.new("Something Navy", '.sn_pinterest', "http://www.somethingnavy.com/")
     @viva = FashionBlog.new("Viva Luxury", '.separator a', "http://vivaluxury.blogspot.com")

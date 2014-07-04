@@ -34,7 +34,11 @@ class FashionBlog
         jpg_links << link if link.include?(".jpeg")
       end
     end
-    jpg_links
+    if jpg_links.count > 21
+      jpg_links[0..20]
+    else
+      jpg_links
+    end
   end
 
   # working on method to scrape src
@@ -49,7 +53,11 @@ class FashionBlog
         src_jpg_links << link unless (link.include?("smilies") || link.include?("gumball"))
       end
     end
-    src_jpg_links
+    if src_jpg_links.count > 21
+      src_jpg_links[0..20]
+    else
+      src_jpg_links
+    end
   end
 
   def self.all_blogs
