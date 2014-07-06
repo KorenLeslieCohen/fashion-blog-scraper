@@ -6,7 +6,7 @@ class Application < Sinatra::Base
   get '/' do
     @atlantic = FashionBlog.new("Atlantic-Pacific", '.post-body .separator', "http://atlantic-pacific.blogspot.com")
     # @sartorialist = FashionBlog.new("The Sartorialist", '.article-content p', "http://www.thesartorialist.com/")
-    @sara_libby = FashionBlog.new("Sara Libby", '.post-body .separator', "http://www.saralibby.com/")
+    # @sara_libby = FashionBlog.new("Sara Libby", '.post-body .separator', "http://www.saralibby.com/")
     # @courtney = FashionBlog.new("What Courtney Wore", '.entry-content p', "http://thecourtneykerr.com/")
     @we_wore = FashionBlog.new("We Wore What", '.entry-content p', "http://weworewhat.com/")
     @lace = FashionBlog.new("Lace & Locks", '.entry p a', "http://laceandlocks.com/")

@@ -22,6 +22,7 @@ class FashionBlog
     ALL_BLOGS << self
   end
 
+  # a href images
   def get_links
     doc = Nokogiri::HTML(open(url))
     to_scrape = doc.css(post)
@@ -41,7 +42,7 @@ class FashionBlog
     end
   end
 
-  # working on method to scrape src
+  # img src images
   def get_links_img
     doc = Nokogiri::HTML(open(url))
     to_scrape = doc.css(post)
