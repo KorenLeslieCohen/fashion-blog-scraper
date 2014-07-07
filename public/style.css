@@ -111,6 +111,19 @@ p {
 .blog-social img {
   height: 50px;
   border: 0px;
+  transition-duration: .5s;
+}
+
+.social img {
+  border-radius: 5px;
+  transition-duration: .5s;
+}
+
+.blog-social img:hover, 
+.social img:hover {
+  background: #FB2875;
+  transition-property: background;
+  transition-duration: .5s;
 }
 
 .terms-body {
