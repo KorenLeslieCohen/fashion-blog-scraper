@@ -34,5 +34,3 @@ class Application < Sinatra::Base
 
 end
 
-acebook=nil, twitter=nil, instagram=nil
-
