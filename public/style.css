@@ -52,14 +52,14 @@ h2 span {
 a,
 a:visited {
   text-decoration: none;
-  color: #FB2875;
+  color: black;
   font-size: 60px;
   font-family: 'Dancing Script';
   transition-duration: .5s;
 }
 
 a:hover {
-  color: black;
+  color: #FB2875;
   transition-property: color;
   transition-duration: .5s;
 }
