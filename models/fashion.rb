@@ -36,6 +36,8 @@ class FashionBlog
         # binding.pry
         jpg_links << link if link.include?(".jpg")
         jpg_links << link if link.include?(".jpeg")
+        jpg_links << link if link.include?(".JPG")
+        jpg_links << link if link.include?(".JPEG")
       end
     end
     if jpg_links.count > 10
