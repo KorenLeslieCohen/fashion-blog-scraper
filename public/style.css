@@ -52,14 +52,14 @@ h2 span {
 a,
 a:visited {
   text-decoration: none;
-  color: black;
+  color: #FB2875;
   font-size: 60px;
   font-family: 'Dancing Script';
   transition-duration: .5s;
 }
 
 a:hover {
-  color: #FB2875;
+  color: black;
   transition-property: color;
   transition-duration: .5s;
 }
@@ -106,24 +106,33 @@ p {
   border-width: 1px;
   border-color: black;
   border-radius: 5px;
+  transition-duration: .5s;
+}
+
+.blog img:hover {
+  transition-property: border-color, border-width;
+  transition-duration: .5s;
+  border-color: #FB2875;
+  border-width: 5px;
 }
 
 .blog-social img {
   height: 50px;
   border: 0px;
-  transition-duration: .5s;
+/*  transition-duration: .7s;*/
 }
 
-.social img {
+/*.social img {
   border-radius: 5px;
-  transition-duration: .5s;
-}
+  transition-duration: .7s;
+}*/
 
 .blog-social img:hover, 
 .social img:hover {
-  background: #FB2875;
+  height: 50px;
+/*  background: #FB2875;
   transition-property: background;
-  transition-duration: .5s;
+  transition-duration: .7s;*/
 }
 
 .terms-body {
