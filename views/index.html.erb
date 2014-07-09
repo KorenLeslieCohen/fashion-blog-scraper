@@ -13,6 +13,9 @@
 </head>
 <body>
   <center>
+    <nav>
+      <h3>FASHION FIXX DAILY</h3>
+    </nav>
     <header id="home">
       <h1>FASHION FIXX DAILY</h1>
       <h2>Daily Content From Your Favorite Fashion Blogs<span> beta</span></h2>
@@ -42,7 +45,7 @@
       <a href="#body"><img src="scroll.png" height="50"></a>
     </header>
     <div class="body" id="body">
-      <div class="blog blog-one">
+      <div class="blog">
         <a href=<%= @atlantic.url %> target="_blank"><%= @atlantic.name %></a></br>
         <div class="blog-social">
           <a href=<%=@atlantic.facebook%> target="_blank"><img src="facebook.png" height="50" id="facebook"></a>
@@ -167,6 +170,7 @@
         <p>Copyright Fashion Fixx Daily 2014</p>
       </div>
     </div>
+<!--     <div id="progress"></div>​ -->
   </center>
   <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
   <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
@@ -181,7 +185,45 @@
             }, 1000);
         }
     });
+    // initially hidden
+    // $('#progress').hide();
+    $('nav').hide();
+    // // progress bar fade in
+    // (function($) {
+    //     $(document).ready(function(){
 
+    //         $(window).scroll(function(){
+    //             if ($(this).scrollTop() > 100) {
+    //                 $('#progress').fadeIn(500);
+    //             } else {
+    //                 $('#progress').fadeOut(500);
+    //             }
+    //         });
+    //     });
+    // })(jQuery);
+    // nav bar fade in
+    (function($) {
+        $(document).ready(function(){
+
+            $(window).scroll(function(){
+                if ($(this).scrollTop() > 100) {
+                    $('nav').fadeIn(500);
+                } else {
+                    $('nav').fadeOut(500);
+                }
+            });
+        });
+    })(jQuery);
+    // // progress bar progress
+    // var bar = $('#progress'),
+    //     $window = $(window),
+    //     docHeight = $(document).height(),
+    //     baseX = $window.height() / docHeight * 100;
+    // bar.css('background', '-webkit-linear-gradient(left, pink '+ baseX +'%, white '+ baseX +'%)');
+    // $window.scroll(function(e) {      
+    //     var x = $window.scrollTop() / docHeight * 100 + baseX;
+    //     bar.css('background', '-webkit-linear-gradient(left, pink '+ x +'%, white '+ x +'%)');
+    // });
   </script>
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

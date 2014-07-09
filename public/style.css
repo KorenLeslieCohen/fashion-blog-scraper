@@ -11,7 +11,7 @@
 h1 {
   font-size: 100px;
   font-family: 'Julius Sans One';
-  color: #FB2875;
+  color: #FB417C;
   margin-top: 10px;
   margin-bottom: 0em;
 }
@@ -26,12 +26,12 @@ h2 {
 h2 span {
   font-family: 'Courgette';
   font-size: 15px;
-  color: #FB2875;
+  color: #FB417C;
 }
 
 .header-text {
   width: 1200px;
-  /*background: #FB2875;*/
+  /*background: #FB417C;*/
   margin-top: 30px;
   margin-bottom: 30px;
 }
@@ -52,14 +52,14 @@ h2 span {
 a,
 a:visited {
   text-decoration: none;
-  color: black;
-  font-size: 60px;
-  font-family: 'Dancing Script';
+  color: #FB417C;
+  font-size: 50px;
+  font-family: 'Julius Sans One';
   transition-duration: .5s;
 }
 
 a:hover {
-  color: #FB2875;
+  color: black;
   transition-property: color;
   transition-duration: .5s;
 }
@@ -74,7 +74,7 @@ span a:visited {
 }
 
 span a:hover {
-  color: #FB2875;
+  color: #FB417C;
 }
 
 header {
@@ -110,10 +110,11 @@ p {
 }
 
 .blog img:hover {
-  transition-property: border-color, border-width;
+  transition-property: border-color, border-width, opacity;
   transition-duration: .5s;
-  border-color: #FB2875;
+  border-color: #FB417C;
   border-width: 5px;
+  opacity: .8;
 }
 
 .blog-social img {
@@ -130,7 +131,7 @@ p {
 .blog-social img:hover, 
 .social img:hover {
   height: 50px;
-/*  background: #FB2875;
+/*  background: #FB417C;
   transition-property: background;
   transition-duration: .7s;*/
 }
@@ -170,7 +171,7 @@ p {
 }
 
 #icon-two {
-  background: #FB2875;
+  background: #FB417C;
 }
 
 #icon-one,
@@ -188,7 +189,7 @@ p {
   font-family: 'Julius Sans One';
   font-size: 19px;
   margin: 10px;
-  color: #FB2875;
+  color: #FB417C;
 }
 
 .terms p a {
@@ -221,12 +222,12 @@ p {
 }
 
 .email a:hover {
-  color: #FB2875;
+  color: #FB417C;
 }
 
 .footer a,
 .footer a:visited {
-  color: #FB2875;
+  color: #FB417C;
   font-family: 'Julius Sans One';
   font-size: 20px;
 }
@@ -235,7 +236,35 @@ p {
   color: black;
 }
 
+/*body {
+    height: 0px;
+}
 
+#progress{
+    position: fixed;
+    background-color: red;
+    width: 100%;
+    height: 15px;
+    bottom: 0;
+    opacity: .5;
+}*/
 
+nav {
+  opacity: .7;
+  background: black;
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  z-index: 1;
+  margin-top: 0em;
+  padding-top: 0em;
+  top: 0;
+}
 
-
+h3 {
+  font-size: 60px;
+  font-family: 'Julius Sans One';
+  color: #FB417C;
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
