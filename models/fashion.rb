@@ -40,8 +40,8 @@ class FashionBlog
         jpg_links << link if link.include?(".JPEG")
       end
     end
-    if jpg_links.count > 10
-      jpg_links[0..9]
+    if jpg_links.count > 9
+      jpg_links[0..8]
     else
       jpg_links
     end
@@ -59,8 +59,8 @@ class FashionBlog
         src_jpg_links << link unless (link.include?("smilies") || link.include?("gumball"))
       end
     end
-    if src_jpg_links.count > 10
-      src_jpg_links[0..9]
+    if src_jpg_links.count > 9
+      src_jpg_links[0..8]
     else
       src_jpg_links
     end

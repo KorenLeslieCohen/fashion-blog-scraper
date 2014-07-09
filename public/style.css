@@ -80,11 +80,15 @@ span a:hover {
 header {
   height: 700px;
   width: 1200px;
-  border-style: solid;
+/*  border-style: solid;
   border-width: 2px;
   border-radius: 5px;
   border-color: black;
-  margin: 20px;
+  margin: 20px;*/
+}
+
+body {
+    background-image: url("grey.png");
 }
 
 p {
