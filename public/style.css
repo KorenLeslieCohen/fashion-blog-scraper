@@ -141,13 +141,13 @@ p {
 }
 
 .terms-body {
-  border-style: solid;
+/*  border-style: solid;
   border-width: 2px;
   border-radius: 5px;
-  border-color: black;
+  border-color: black;*/
   margin: 20px;
   padding: 10px;
-  max-width: 1300px;
+  max-width: 1200px;
 }
 
 .icons {
@@ -239,19 +239,6 @@ p {
 .footer a:hover {
   color: black;
 }
-
-/*body {
-    height: 0px;
-}
-
-#progress{
-    position: fixed;
-    background-color: red;
-    width: 100%;
-    height: 15px;
-    bottom: 0;
-    opacity: .5;
-}*/
 
 nav {
   opacity: .7;
