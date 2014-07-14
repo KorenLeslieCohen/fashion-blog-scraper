@@ -22,7 +22,7 @@ class Application < Sinatra::Base
     # @cupcakes = FashionBlog.new("Cupcakes and Cashmere", '.embedded-Media-image', "http://cupcakesandcashmere.com/")
     @toast = FashionBlog.new("Fashiontoast", '.copy p', "http://fashiontoast.com/", "http://www.facebook.com/fashiontoast", "http://twitter.com/rumineely", "http://instagram.com/rumineely")
     # @marcy = FashionBlog.new("The Marcy Stop", '.separator', "http://www.themarcystop.com/")
-    @navy = FashionBlog.new("Something Navy", '.sn_pinterest', "http://www.somethingnavy.com/", "http://www.facebook.com/pages/SomethingNavy/108772859186758?ref=ts&fref=ts", "http://twitter.com/something_navy", "http://instagram.com/somethingnavy")
+    @navy = FashionBlog.new("Something Navy", '.cb-excerpt p', "http://www.somethingnavy.com/", "http://www.facebook.com/pages/SomethingNavy/108772859186758?ref=ts&fref=ts", "http://twitter.com/something_navy", "http://instagram.com/somethingnavy")
     @viva = FashionBlog.new("Viva Luxury", '.separator a', "http://vivaluxury.blogspot.com", "http://www.facebook.com/pages/VivaLuxury-Style-Blog/191566214200570", "http://twitter.com/vivaluxury", "http://instagram.com/vivaluxuryblog")
     @zoranna = FashionBlog.new("Zoranna", '.post-body a', "http://www.zorannah.com/", "http://www.facebook.com/zorannahsfashioncorner", "http://twitter.com/Zorannah", "http://instagram.com/zorannah")
     erb :"index.html"
