@@ -3,7 +3,6 @@ require 'rubygems'
 require 'open-uri'
 require 'cgi'
 require 'uri'
-# require 'pry'
 
 class FashionBlog
 
@@ -33,7 +32,6 @@ class FashionBlog
     all_image_links << image_links.map {|link| link["href"]}.compact
     all_image_links.each do |inner_array|
       inner_array.each do |link|
-        # binding.pry
         jpg_links << link if link.include?(".jpg")
         jpg_links << link if link.include?(".jpeg")
         jpg_links << link if link.include?(".JPG")
@@ -55,7 +53,6 @@ class FashionBlog
     all_image_links << image_links.map {|link| link["src"]}.compact
     all_image_links.each do |inner_array|
       inner_array.each do |link|
-        # binding.pry
         src_jpg_links << link unless (link.include?("smilies") || link.include?("gumball"))
       end
     end

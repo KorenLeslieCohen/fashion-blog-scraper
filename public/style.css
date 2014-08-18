@@ -80,11 +80,6 @@ span a:hover {
 header {
   height: 700px;
   width: 1200px;
-/*  border-style: solid;
-  border-width: 2px;
-  border-radius: 5px;
-  border-color: black;
-  margin: 20px;*/
 }
 
 body {
@@ -124,27 +119,14 @@ p {
 .blog-social img {
   height: 50px;
   border: 0px;
-/*  transition-duration: .7s;*/
 }
-
-/*.social img {
-  border-radius: 5px;
-  transition-duration: .7s;
-}*/
 
 .blog-social img:hover, 
 .social img:hover {
   height: 50px;
-/*  background: #FB417C;
-  transition-property: background;
-  transition-duration: .7s;*/
 }
 
 .terms-body {
-/*  border-style: solid;
-  border-width: 2px;
-  border-radius: 5px;
-  border-color: black;*/
   margin: 20px;
   padding: 10px;
   max-width: 1200px;
@@ -165,7 +147,6 @@ p {
 }
 
 #icon-one {
-  /*margin-left: 240px;*/
   margin-left: 290px;
 }
 
