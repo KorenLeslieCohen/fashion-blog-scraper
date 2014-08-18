@@ -1,8 +1,10 @@
 # Fashion Fixx Daily
 
-Fashion Fixx Daily provides curated content from popular and emerging fashion blogs. Automatic updates anytime a blogger posts new content. All images link back to the original blog pahe.
+Fashion Fixx Daily provides curated content from popular and emerging fashion blogs. Automatic updates anytime a blogger posts new content. All images link back to the original blog page.
 
 <a href="http://fashionfixxdaily.com" target="_blank"><img src="http://www.korenlc.com/wp-content/uploads/2014/06/ffd1-1024x570.png"></a>
+
+<a href="http://fashionfixxdaily.com" target="_blank"><img src="http://www.korenlc.com/wp-content/uploads/2014/06/fashionwendy-1024x577.png"></a>
 
 ## Background
 
