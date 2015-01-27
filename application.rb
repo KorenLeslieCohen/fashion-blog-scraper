@@ -14,7 +14,7 @@ class Application < Sinatra::Base
     @sea_of_shoes = FashionBlog.new("Sea of Shoes", ".post_content p", "http://www.seaofshoes.com/", "http://www.facebook.com/SeaofShoes", "http://twitter.com/sea_of_shoes", "http://instagram.com/seaofshoes")
     @wendy_lookbook = FashionBlog.new("Wendy's Lookbook", '.wlb_image_preview a', "http://www.wendyslookbook.com/", "http://www.facebook.com/wendyslookbook", "http://twitter.com/wendynguyen", "http://instagram.com/wendyslookbook")
     # @le_fashion = FashionBlog.new("le Fashion", '.post-body', "http://www.lefashionimage.blogspot.com/")
-    @gal = FashionBlog.new("Gal Meets Glam", '.entry-content p', "http://galmeetsglam.com/", "http://www.facebook.com/pages/Gal-Meets-Glam/232455260104990", "http://twitter.com/GalMeetsGlam", "http://instagram.com/juliahengel")
+    @gal = FashionBlog.new("Gal Meets Glam", '.featured-images a', "http://galmeetsglam.com/", "http://www.facebook.com/pages/Gal-Meets-Glam/232455260104990", "http://twitter.com/GalMeetsGlam", "http://instagram.com/juliahengel")
     # @pink_horror = FashionBlog.new("Pink Horrorshow", '.separator', "http://www.pinkhorrorshow.com/")
     # @trop = FashionBlog.new("Trop Rouge", '.post-body', "http://troprouge.blogspot.com/")
     # @jag = FashionBlog.new("Jag Lever", '.entry-content p', "http://www.jaglever.com/")
