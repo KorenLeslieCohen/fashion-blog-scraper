@@ -71,16 +71,23 @@
       <a href="#body"><img src="scroll.png" height="50"></a>
     </header>
 
+    <!-- loop through blogs -->
+    <div class="body" id="body">
+      <% @blogs.each do |key, attributes| %>
+        <div class="blog">
+          <a href=<%= attributes.url %> target="_blank"><%= attributes.name %></a><br>
+          <div class="blog-social">
+            <a href=<%= attributes.facebook%> target="_blank"><img src="facebook.png" height="50" id="facebook"></a>
+            <a href=<%= attributes.twitter %> target="_blank"><img src="twitter.png" height="50" id="twitter"></a>
+            <a href=<%= attributes.instagram %> target="_blank"><img src="instagram.png" height="50" id="instagram"></a>
+          </div>
+          <% attributes.function.each do |pic| %>
+            <a href=<%= attributes.url %> target="_blank"><img src=<%= pic %>></a>
+          <% end %>
+        </div>
+      <% end %>
 
-<div class="body" id="body">
-  <% @blogs.each do |key, value| %>
-    <div class="blog">
-      <%= value %>
-    </div>
-  <% end %>
-</div>
-
-
+      <!-- footer -->
       <div class="footer">
         <a href="#home">Home</a></br>
         <a href="/terms">About & Terms</a></br>
