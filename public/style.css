@@ -129,15 +129,19 @@ p {
 }
 
 .main-image:hover .hover-image img {
-  height: 340px;
+  height: 400px;
   opacity: 1;
   border-color: #FB417C;
   border-width: 5px;
+  transition-duration: .5s;
+  transition-property: opacity;
 }
 
 .main-image:hover .hover-image {
   opacity: 1;
   z-index: 999;
+  transition-duration: .5s;
+  transition-property: opacity;
 }
 
 #outer-modal {
