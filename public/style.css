@@ -124,7 +124,7 @@ p {
 .main-image .hover-image {
   opacity: 0;
   position: absolute;
-  top: -320;
+  top: -240;
   left: -100;
 }
 
