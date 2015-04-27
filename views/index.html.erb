@@ -70,9 +70,8 @@
       </div>
       <a href="#body"><img src="scroll.png" height="50"></a>
     </header>
-
-    <!-- loop through blogs -->
     <div class="body" id="body">
+      <!-- loop through blogs -->
       <% @blogs.each do |key, attributes| %>
         <div class="blog">
           <a href=<%= attributes.url %> target="_blank"><%= attributes.name %></a><br>
@@ -82,11 +81,15 @@
             <a href=<%= attributes.instagram %> target="_blank"><img src="instagram.png" height="50" id="instagram"></a>
           </div>
           <% attributes.function.each do |pic| %>
-            <a href=<%= attributes.url %> target="_blank"><img src=<%= pic %>></a>
+            <div class="main-image">
+              <a href=<%= attributes.url %> target="_blank"><img src=<%= pic %>></a>
+              <div class="hover-image">
+                <a href=<%= attributes.url %> target="_blank"><img src=<%= pic %>></a>
+              </div>
+            </div>
           <% end %>
         </div>
       <% end %>
-
       <!-- footer -->
       <div class="footer">
         <a href="#home">Home</a></br>
@@ -94,7 +97,7 @@
         <p>Copyright Fashion Fixx Daily 2014</p>
       </div>
     </div>
-<!--     <div id="progress"></div>​ -->
+
   </center>
   <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
   <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>

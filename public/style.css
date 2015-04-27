@@ -124,13 +124,12 @@ p {
 .main-image .hover-image {
   opacity: 0;
   position: absolute;
-  top: 0;
-  left: 0;
-  transform: translateY(-100%);
+  top: -320;
+  left: -100;
 }
 
 .main-image:hover .hover-image img {
-  height: 400px;
+  height: 340px;
   opacity: 1;
   border-color: #FB417C;
   border-width: 5px;
