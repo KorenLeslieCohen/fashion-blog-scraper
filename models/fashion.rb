@@ -6,11 +6,11 @@ require 'uri'
 
 class FashionBlog
 
-  attr_accessor :name, :post, :url, :image_links, :all_image_links, :jpg_links, :src_jpg_links, :facebook, :twitter, :instagram
+  attr_accessor :name, :post, :url, :image_links, :all_image_links, :jpg_links, :src_jpg_links, :facebook, :twitter, :instagram, :function
 
   ALL_BLOGS = []
 
-  def initialize(name, post, url, facebook=nil, twitter=nil, instagram=nil)
+  def initialize(name, post, url, facebook=nil, twitter=nil, instagram=nil, function=nil)
     @name = name
     @post = post
     @url = url
@@ -21,6 +21,11 @@ class FashionBlog
     @all_image_links = []
     @jpg_links = []
     @src_jpg_links = []
+    if @function == "get_links"
+      get_links
+    elsif @function == "get_links_img"
+      get_links_img
+    end
     ALL_BLOGS << self
   end
 
