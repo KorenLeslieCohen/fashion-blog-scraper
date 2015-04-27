@@ -129,7 +129,7 @@ p {
 }
 
 .main-image:hover .hover-image img {
-  height: 400px;
+  height: 340px;
   opacity: 1;
   border-color: #FB417C;
   border-width: 5px;
