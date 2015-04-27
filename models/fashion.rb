@@ -21,12 +21,11 @@ class FashionBlog
     @all_image_links = []
     @jpg_links = []
     @src_jpg_links = []
-    @function = get_links
-    # if @function == "get_links"
-    #   function = get_links
-    # elsif @function == "get_links_img"
-    #   function = get_links_img
-    # end
+    if function == "get_links"
+      @function = get_links
+    elsif function == "get_links_img"
+      @function = get_links_img
+    end
     ALL_BLOGS << self
   end
 
