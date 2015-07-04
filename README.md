@@ -14,11 +14,14 @@ This Sinatra application is written in Ruby and uses the Nokogiri gem to scrape 
 
 See something you like? Simply click the image and you'll be redirected to the original blog page.
 
-## Authors
+## Author
 
-Fashion Fixx Daily was created by:
+Fashion Fixx Daily was created by Koren Leslie Cohen.
 
-Koren Leslie Cohen: <a href="http://twitter.com/korenlc" target="_blank">Twitter</a>, <a href="http://korenlc.com" target="_blank">Blog</a>, <a href="http://linkedin.com/pub/koren-leslie-cohen/26/178/726/" target="_blank">LinkedIn</a> 
+<a href="http://linkedin.com/in/korenlesliecohen/" target="_blank">LinkedIn</a><br>
+<a href="http://twitter.com/korenlc" target="_blank">Twitter</a><br>
+<a href="http://korenlc.com" target="_blank">Blog</a><br>
+<a href="http://klcohen.com" target="_blank">Portfolio</a>
 
 ## License
 
