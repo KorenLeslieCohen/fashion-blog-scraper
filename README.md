@@ -1,4 +1,4 @@
-# Fashion Fixx Daily
+# Fashion Fixx Daily 
 
 Fashion Fixx Daily provides curated content from popular and emerging fashion blogs. Automatic updates anytime a blogger posts new content. All images link back to the original blog page.
 
