@@ -14,7 +14,6 @@ class Application < Sinatra::Base
                 :viva => FashionBlog.new("Viva Luxury", '.separator a', "http://vivaluxury.blogspot.com", "http://www.facebook.com/pages/VivaLuxury-Style-Blog/191566214200570", "http://twitter.com/vivaluxury", "http://instagram.com/vivaluxuryblog", "get_links_img"),
                 :zoranna => FashionBlog.new("Zoranna", '.post-body a', "http://www.zorannah.com/", "http://www.facebook.com/zorannahsfashioncorner", "http://twitter.com/Zorannah", "http://instagram.com/zorannah", "get_links_img"),
                 :toast => FashionBlog.new("Fashiontoast", '.td-module-thumb a', "http://fashiontoast.com/", "http://www.facebook.com/fashiontoast", "http://twitter.com/rumineely", "http://instagram.com/rumineely", "get_links_img")
-
     }
 
     erb :"index.html"
